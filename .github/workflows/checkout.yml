@@ -10,7 +10,7 @@ jobs:
           # path: our-source #our-source 폴더를 생성후 그곳에 소스를 가져옴
           fetch-depth: 3 #최근 3개월 변경이력을 가져옴
       - run: ls -al
-      - run: ls -al our-source
+      # - run: ls -al our-source
       # - run: cat our-source/.github/workflows/checkout.yml
       - run : cat .github/workflows/checkout.yml
       - run: git log --pretty=oneline
